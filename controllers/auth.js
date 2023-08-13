@@ -1,6 +1,6 @@
 exports.signup = (req, res) => {
-    const {name, email, password} = req.body;
+    const { name, email, password } = req.body;
     res.json({
-        user: {name, email, password}
+        user: { name, email, password }
     });
 };
